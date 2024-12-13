@@ -1,0 +1,65 @@
+{
+  "NavBar":{
+    "links1": "Home",
+    "href1":"/",
+    "links2": "About",
+    "href2":"about",
+    "links3":"Work",
+    "href3":"works",
+    "links4":"Contact",
+    "href4":"contact",
+    "links5":"Español",
+    "href5":"/es"
+  },
+  "Banner": {
+    "subTitle":"Hey, I'm Luysmar Colmenares",
+    "title": "Developer web",
+    "parrafo1": "Work remotely from South America.",
+    "buttonc": "DOWNLOAD CV",
+    "buttons": "VIEW MY WORK"
+  },
+  "About":{
+    "heading":"¿Who are we?",
+    "title":"About",
+    "hello":"Hi,There. I`m",
+    "subTitle":"I wonder if I've been changed in the night? Let me think. Was I the same when I got up this morning? ",
+    "text":"Programmer with over 6 years of experience in web application development, design, and implementation. Proficient in various platforms. Experienced in cutting-edge development tools and procedures. Strong collaboration skills within a productive team, quick learner, adaptable, and performs well under pressure.",
+    "title2":"Skills",
+    "text2":"",
+    "skill1":"Developer Web",
+    "skill2":"React.JS",
+    "skill3":"Web Desing",
+    "skill4":"Figma"
+  },
+ "Work":{
+    "title":"Works",
+    "text1":"Below is a list of selected projects I have done. If you have any questions or would like to chat about other things I've worked on."
+  },
+  "Contact":{
+    "title":"Contact",
+    "subTitle":"Complete your information below to continue.",
+    "name":"First and last name",
+    "email":"Email",
+    "phone":"Phone Number",
+    "state":"State",
+    "city":"City",
+    "zipCode":"Zip Code",
+    "buttonE":"Send",
+    "whatsApp":"WhatsApp",
+    "phoneE":"Phone",
+    "emailE":"Email",
+    "address":"Address",
+    "message":"Form submitted successfully",
+    "services":"Service",
+    "error":"Please complete all fields before submitting the form."
+  },
+
+
+  "Footer":{
+    "title":"Do you want more information?",
+    "text":"We are ready to provide you the best advice for your business or home.",
+    "text1":"Social Media",
+    "buttonc":"Contact us"
+  }
+
+}

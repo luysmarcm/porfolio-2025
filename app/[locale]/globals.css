@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  /* background-image: url(); */
+   color: white;
+  background: #111;
+  color: rgb(var(--foreground-rgb));
+  /* background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.slick-slide img {
+  border: none;
+  outline: none;
+}
+
+.slick-slide:focus {
+  outline: none;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 300px; /* Ajusta este valor según el tamaño que desees */
+}
+
+.card{
+  /* width: 1020px;
+  height: 1020px; */
+  position: relative;
+}
+
+.text-gradient{
+   background-image: linear-gradient( 45deg, #f9068c 25%, #e77518);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.card-inner{
+  /* width: inherit;
+  height: inherit; */
+  background-color: rgb(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+h1{
+ /* color: #0000; */
+}
+
+.text{
+  padding: 30px;
+}
+
+.circle{
+  width: 300px;
+  height: 300px;
+  /* background: linear-gradient(110deg, #070768 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #44d1d4 80%, #070768 50%); */
+  background: linear-gradient( 10deg, #626ABF 20%, #626ABF);
+  border-radius: 30%; 
+  position: absolute;
+  /* animation: move-up 1.5s ease-in infinite alternate-reverse; */
+   filter: blur(100px);
+  top: 0px;
+  left: 1700px;
+}
+
+.circle1{
+  width: 500px;
+  height: 500px;
+  /* background: linear-gradient(110deg, #070768 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #44d1d4 80%, #070768 50%); */
+  background: linear-gradient( 80deg, #F693A4 90%, #D9D9D9);
+  border-radius: 30%; 
+  z-index: 7;
+  position: absolute;
+  /* animation: move-up 1.5s ease-in infinite alternate-reverse; */
+   filter: blur(100px);
+  top: 500px;
+  left: -340px;
+}
+
+/* .circle:nth-child(1){
+  top: -30px;
+  left: -40px;
+}
+
+.circle:nth-child(2){
+  top: 130px;
+  left: 350px;
+} */
+
+@keyframes move-up{
+  to{
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes move-down{
+  to{
+    transform: translateY(20px);
+  }
+}
+
+
+
+.bg-purple {
+    color: #fff;
+    background: -webkit-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -webkit-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: -o-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -o-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: -moz-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -moz-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+}
+
+.bg-gold {
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+   /* background: linear-gradient(#14ffe9, #c4c4c4, #e8e385); */
+ /* background: linear-gradient(110deg, #ffff 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #44d1d4 70%, #070768 70%); */
+}
+
+.bg-aurora {
+    color: #fff;
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg');
+  background-size: cover;
+  background-position: 50% 21%;
+  text-align: right;
+}
+
+
+.outer-circle {
+  position: relative;
+  height: -50px;
+  width: 140px;
+  background: linear-gradient(#14ffe9, #c4c4c4, #e8e385);
+  border-radius: 5%; 
+  animation: rotate 1.5s linear infinite;
+  filter: blur(60px);
+}
+
+ /* prueba
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+}
+
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #fff;
+}
+
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 25px;
+  position: absolute;
+  top: 100px;
+  width: 230px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex: 40px 0;
+  margin-right: 20px;
+}
+
+.text-placeholder {
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+  flex: 1;
+}
+
+.refresh {
+  padding: 10px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+ */

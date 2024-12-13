@@ -1,0 +1,64 @@
+{
+  "NavBar":{
+    "links1": "Inicio",
+    "href1":"/",
+    "links2": "Sobre mi",
+    "href2":"about",
+    "links3":"Trabajos",
+    "href3":"works",
+    "links4":"Contacto",
+    "href4":"contact",
+    "links5":"English",
+    "href5":"/en"
+  },
+
+  "Banner": {
+    "subTitle":"Hola, soy Luysmar",
+    "title": "Desarrolador Web",
+    "parrafo1": "Work remotely from South America",
+    "buttonc": "Descargar CV",
+    "buttons": "Ver trabajos"
+  },
+  "About":{
+    "heading":"¿Quiénes somos?",
+    "title":"Sobre mi",
+    "hello":"Hola, Soy",
+    "subTitle":"I wonder if I've been changed in the night? Let me think. Was I the same when I got up this morning?",
+    "text":"Programador con +6 de experiencia en desarrollo, diseño e implementación de aplicaciones web. Dominio de varias plataformas. Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. Buenas habilidades de colaboración dentro de un equipo productivo, fácil aprendizaje facilidad de adaptación, buen desempeño bajo presión.",
+    "title2":"Habilidades",
+    "text2":"",
+    "skill1":"Desarrollo Web",
+    "skill2":"React.JS",
+    "skill3":"Diseno Web",
+    "skill4":"Figma"
+  },
+  "Work":{
+    "title":"Trabajos",
+    "text1":"Below is a list of selected projects I have done. If you have any questions or would like to chat about other things I've worked on."
+  },
+  "Contact":{
+    "title":"Estamos listas para brindarte la mejor asesoria correspondiente para tu negocio o tu hogar.",
+    "subTitle":"Ingrese su información a continuación para continuar.",
+    "name":"Nombre y Apellido",
+    "email":"Correo",
+    "phone":"Telefono",
+    "state":"Estado",
+    "city":"Ciudad",
+    "zipCode":"Codigo Postal",
+    "buttonE":"Enviar",
+    "whatsApp":"WhatsApp",
+    "phoneE":"Telefono",
+    "emailE":"Correo",
+    "address":"Direccion",
+    "message":"¡Formulario enviado con éxito!",
+    "services":"Servicio",
+    "error":"Por favor, completa todos los campos antes de enviar el formulario."
+  },
+  "Footer":{
+    "title":"¿Quieres más información?",
+    "text":"Estamos listas para brindarte la mejor asesoria correspondiente para tu negocio o tu hogar.",
+    "text1":"Encuentranos",
+    "buttonc":"Contactanos"
+  }
+
+}
