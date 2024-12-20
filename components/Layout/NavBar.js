@@ -88,8 +88,9 @@ const NavBar = () => {
 									key={link.name}
 									href={`/${localActive}/${t(link.href)}`}
 									// href={t(link.href)}
-									className="px-3 py-2 rounded-md text-md lg:text-lg uppercase font-light text-white hover:text-secundary"
+									className=" px-3 py-2 rounded-md text-md lg:text-lg uppercase font-light text-white hover:text-secundary"
 								>
+									
 									{link.name}
 								</Link>
 							))}
@@ -163,6 +164,7 @@ const NavBar = () => {
 							))}
 						</motion.ul >
               <div className="absolute bottom-4 left-4 text-white">
+			  <a className="relative inline-block py-1 text-transparent bg-clip-text bg-gradient-to-r from-[#54b3d6] to-[#54b3d6] via-[#000] bg-[length:200%_100%] bg-[position:-100%] transition-all duration-300 ease-in-out hover:bg-[position:0]"> Enlace </a>
                 LET'S TALK: LUYSMAR27@GMAIL.COM
               </div>
             </div>

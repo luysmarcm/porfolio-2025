@@ -2,9 +2,11 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { motion } from "framer-motion";
+import Script from 'next/script';
 
 const HeroSection = () => {
 	const t = useTranslations("Banner");
+
 
 	return (
 		<div className="relative h-screen bg-banner bg-cover">
@@ -145,6 +147,15 @@ const HeroSection = () => {
 							height="1766"
 							priority
 						/> */}
+						<Script
+						src="https://widget.gethearth.com/script.js"
+						id="hearth-script"
+						data-orgid="49438"
+						data-partner="monarca-life-improvement"
+						data-orgUuid="9acc99cb-c1be-46fa-9ec8-2ea54a8e0b62"
+						strategy="afterInteractive"
+						/>
+        <iframe id="hearth-lead-capture-widget"></iframe>
 					</motion.div>
 				</div>
 			</div>
