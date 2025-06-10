@@ -6,7 +6,6 @@ import { useTranslations } from "next-intl";
 import { useRouter } from 'next/navigation'
 // import { locales } from "@/navigation";
 import { useLocale } from "next-intl";
-import FullscreenMenu from './FullscreenMenu';
 import { motion, AnimatePresence } from 'framer-motion';
 
 
@@ -187,7 +186,7 @@ const NavBar = () => {
 									{" "}
 									Enlace{" "}
 								</a> */}
-								LET'S TALK: LUYSMAR27@GMAIL.COM
+								LET&aposS TALK: LUYSMAR27@GMAIL.COM
 							</div>
 						</div>
 					</motion.div>
