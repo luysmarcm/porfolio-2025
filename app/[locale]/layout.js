@@ -1,4 +1,4 @@
-import { Urbanist } from "next/font/google";
+import { Urbanist, Pacifico } from "next/font/google";
 import "./globals.css";
 import "toastify-js/src/toastify.css";
 import Header from "@/components/Layout/Header";
@@ -9,8 +9,17 @@ import { AOSInit } from "@/aos";
 import Script from "next/script";
 import Head from "next/head";
 
+
+
+
 const urbanist = Urbanist({
 	subsets: ["latin"], // Especifica los subconjuntos de caracteres que deseas incluir
+});
+
+const pacifico = Pacifico({
+	weight: "400",
+	subsets: ["latin"],
+	variable: "--font-pacifico",
 });
 
 export const metadata = {
@@ -29,7 +38,7 @@ export default async function LocaleLayout({ children, params }) {
 		<html lang={params.locale} className={urbanist.className}>
 			<AOSInit />
 
-			<body className="max-w-max min-w-min mx-auto">
+			<body className="max-w-max min-w-min mx-auto bg-black">
 				<NextIntlClientProvider messages={messages}>
 					<Header />
 					<div className="max-w-max m-auto overflow-hidden w-full">

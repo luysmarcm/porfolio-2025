@@ -9,11 +9,11 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: "#ffff",
-				secundary: "#F693A4",
+				secundary: "#F2C6DE",
 				fondo: "#1111",
 				negro: "#1c2432",
-				rosado: "#F693A4",
-				morado: "#626ABF",
+				rosado: "#F2C6DE",
+				morado: "#BCA7E8",
 				m2: "626ABF",
 				fondo: "#d1c7bd",
 				gris: "#D9D9D9",
@@ -60,6 +60,15 @@ module.exports = {
 				banner: "url('/image/banner.webp')",
 				contact: "url('/image/contact2.webp')",
 			}),
+			animation: {
+				"gradient-x": "gradient-x 3s ease infinite",
+			},
+			keyframes: {
+				"gradient-x": {
+					"0%, 100%": { backgroundPosition: "200% 0%" },
+					"50%": { backgroundPosition: "0% 0%" },
+				},
+			},
 		},
 	},
 	plugins: [],

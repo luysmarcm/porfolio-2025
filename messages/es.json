@@ -15,22 +15,28 @@
   "Banner": {
     "subTitle":"Hola, soy Luysmar",
     "title": "Desarrolador Web",
-    "parrafo1": "Work remotely from South America",
+    "parrafo1": "Trabajo remoto desde Sudamérica.",
     "buttonc": "Descargar CV",
-    "buttons": "Ver trabajos"
+    "buttons": "Ver trabajos",
+    "stack":"Tecnologías utilizadas para crear este sitio web:"
   },
   "About":{
     "heading":"¿Quiénes somos?",
     "title":"Sobre mi",
     "hello":"Hola, Soy",
-    "subTitle":"I wonder if I've been changed in the night? Let me think. Was I the same when I got up this morning?",
-    "text":"Programador con +6 de experiencia en desarrollo, diseño e implementación de aplicaciones web. Dominio de varias plataformas. Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. Buenas habilidades de colaboración dentro de un equipo productivo, fácil aprendizaje facilidad de adaptación, buen desempeño bajo presión.",
+    "subTitle":"Cada línea de código es una oportunidad para crear algo mejor.",
+    "text":"Desarrolladora Front-End con más de 6 años de experiencia diseñando e implementando aplicaciones web responsivas y escalables. Dominio de tecnologías modernas como React.js, Next.js, GraphQL y Node.js, con enfoque en rendimiento, accesibilidad y experiencia de usuario. Acostumbrada a trabajar en entornos ágiles y remotos, con excelentes habilidades de colaboración,adaptación y aprendizaje continuo. Apasionada por el desarrollo limpio, la innovación y la mejora constante",
     "title2":"Habilidades",
-    "text2":"",
+    "text2":"Tecnologías",
+    "text3":"He trabajado con diversas tecnologías, entre ellas:",
+    "text4":"Información de Contacto",
     "skill1":"Desarrollo Web",
-    "skill2":"React.JS",
-    "skill3":"Diseno Web",
-    "skill4":"Figma"
+    "skill2":"Otros",
+    "skill3":"Diseño / UI",
+    "skill4":"Bases de Datos",
+    "skill5":"DevOps",
+    "skill6":"Front-end",
+    "skill7":"Back-end"
   },
   "Work":{
     "title":"Trabajos",

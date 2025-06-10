@@ -8,13 +8,10 @@ const WorksGrid = ({work, idx}) => {
     console.log(work)
   return (
 		<div
-			// className={`grid grid-cols-none  overflow-hidden ${
-			// 	idx % 2 === 0 ? "lg:" : "lg:grid-cols-2"
-			// }`}
-			className="grid grid-cols-none lg:grid-cols-2 overflow-hidden"
+			className="grid grid-cols-1 md:grid-cols-2 w-full overflow-hidden"
 		>
 			<CardWorks work={work} />
-			<div>
+			<div className="order-1 md:order-2">
 				<Image
 					src={work.image}
 					alt="Monarca"

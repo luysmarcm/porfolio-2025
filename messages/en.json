@@ -16,20 +16,26 @@
     "title": "Developer web",
     "parrafo1": "Work remotely from South America.",
     "buttonc": "DOWNLOAD CV",
-    "buttons": "VIEW MY WORK"
+    "buttons": "VIEW MY WORK",
+    "stack":"Technologies used to build this website:"
   },
   "About":{
     "heading":"¿Who are we?",
     "title":"About",
     "hello":"Hi,There. I`m",
-    "subTitle":"I wonder if I've been changed in the night? Let me think. Was I the same when I got up this morning? ",
-    "text":"Programmer with over 6 years of experience in web application development, design, and implementation. Proficient in various platforms. Experienced in cutting-edge development tools and procedures. Strong collaboration skills within a productive team, quick learner, adaptable, and performs well under pressure.",
+    "subTitle":"Every line of code is an opportunity to create something better.",
+    "text":"Front-End Developer with over 6 years of experience designing and building responsive, scalable web applications. Proficient in modern technologies such as React.js, Next.js, GraphQL, and Node.js with a focus on performance, accessibility, and user experience. Experienced working in agile and remote environments, with strong collaboration, adaptability, and problem-solving skills. Passionate about clean code, innovation, and continuous improvement",
     "title2":"Skills",
-    "text2":"",
+    "text2":"Technologies",
+    "text3":"I have worked with a variety of technologies, including:",
+    "text4":"Contact Information",
     "skill1":"Developer Web",
-    "skill2":"React.JS",
-    "skill3":"Web Desing",
-    "skill4":"Figma"
+    "skill2":"Others",
+    "skill3":"Desing / UI",
+    "skill4":"Database",
+    "skill5":"DevOps",
+    "skill6":"Front-end",
+    "skill7":"Back-end"
   },
  "Work":{
     "title":"Works",
